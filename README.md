@@ -22,4 +22,4 @@ This project was originally a clone of [https://hagura.sveltethemes.dev/](https:
 3. `npm run dev` for development server
 4. see it in action on `localhost:3001`
 
-See `scripts` section in `package.json` for others 
+See `scripts` section in `package.json` for others
