@@ -27,15 +27,15 @@
   $: paginatedItems = paginate({ items, pageSize, currentPage });
 
   $seo = {
-    title: "Hagura - Light",
-    description: "Hagura is a light-weight theme/template built for sveltekit.",
+    title: "Foxglove Florals",
+    description: "Bethany Collins' home on the web",
   };
 </script>
 
 <main>
   <article>
     <h1 class="headline text-7xl leading-relaxed font-black font-display mb-4">
-      Hagura - Light!
+      Foxglove Florals
     </h1>
     <div class="article-list">
       {#each paginatedItems as { metadata: { title, description, tags, outline, slug }, path }}
