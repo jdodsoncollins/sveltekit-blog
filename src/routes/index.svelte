@@ -42,7 +42,7 @@
 
 <main>
 	<article>
-		<h1 class="headline text-7xl leading-relaxed font-black font-display mb-4">
+		<h1 class="headline sm:text-xl md:text-3xl lg:text-7xl leading-relaxed font-black font-display mb-4">
 			bethanycollins.me
 		</h1>
 		<div class="article-list">
