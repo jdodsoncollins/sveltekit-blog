@@ -2,7 +2,7 @@
 	import Seo from '$lib/Seo.svelte';
 	import Nav from '$lib/Nav.svelte';
 	import '../app.postcss';
-	import '../style.css';
+	import '../style.scss';
 	import { browser } from '$app/env';
 	import lazyload from 'vanilla-lazyload';
 
@@ -12,7 +12,7 @@
 </script>
 
 <Seo />
-<div class="body-wrapper max-w-screen-md mx-auto">
+<div class="body-wrapper mx-auto">
 	<Nav />
 	<slot />
 </div>

@@ -19,8 +19,8 @@ module.exports = {
 	theme: {
 		extend: {},
 		fontFamily: {
-			display: ['Lato', 'helvetica neue', 'Helvetica', 'sans-serif'],
-			body: ['work sans', 'sans-serif']
+			display: ['Noto Sans Mono', 'monospace'],
+			body: ['Noto Sans Mono', 'monospace']
 		}
 	},
 	variants: {

@@ -29,7 +29,7 @@
 	$: paginatedItems = paginate({ items, pageSize, currentPage });
 
 	$seo = {
-		title: 'Foxglove Florals',
+		title: 'bethanycollins.me',
 		description: "Bethany Collins' home on the web"
 	};
 
@@ -42,7 +42,9 @@
 
 <main>
 	<article>
-		<h1 class="headline text-7xl leading-relaxed font-black font-display mb-4">Foxglove Florals</h1>
+		<h1 class="headline text-7xl leading-relaxed font-black font-display mb-4">
+			bethanycollins.me
+		</h1>
 		<div class="article-list">
 			{#each paginatedItems as { metadata: { title, description, tags, outline, slug }, path }}
 				<div class="mb-4">
