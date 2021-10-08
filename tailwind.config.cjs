@@ -19,8 +19,8 @@ module.exports = {
 	theme: {
 		extend: {},
 		fontFamily: {
-			display: ['Noto Sans Mono', 'monospace'],
-			body: ['Noto Sans Mono', 'monospace']
+			display: ['Merriweather', 'serif'],
+			body: ['Merriweather', 'serif']
 		}
 	},
 	variants: {
