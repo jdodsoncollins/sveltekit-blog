@@ -54,77 +54,56 @@
 	let selectedImg;
 	const handleClick = (parameter) => {
 		selectedImg = parameter;
-		console.log(selectedImg);
 	};
 </script>
 
-<main>
-	<p>
-		Mrs. Hurst sang with her sister, and while they were thus employed, Elizabeth could not help
-		observing, as she turned over some music-books that lay on the instrument, how frequently Mr.
-		Darcy’s eyes were fixed on her. She hardly knew how to suppose that she could be an object of
-		admiration to so great a man; and yet that he should look at her because he disliked her, was
-		still more strange. She could only imagine, however, at last that she drew his notice because
-		there was something more wrong and reprehensible, according to his ideas of right, than in any
-		other person present. The supposition did not pain her. She liked him too little to care for his
-		approbation.
-	</p>
-
-	<p>
-		After playing some Italian songs, Miss Bingley varied the charm by a lively Scotch air; and soon
-		afterwards Mr. Darcy, drawing near Elizabeth, said to her:
-	</p>
-
-	<p>
-		“Do not you feel a great inclination, Miss Bennet, to seize such an opportunity of dancing a
-		reel?”
-	</p>
-	<h3 class="pt-16">Wedding</h3>
-	<div class="horizontal-snap">
-		{#each weddings as wedding}
-			<img src={wedding} alt="Wedding Arrangement" on:click={() => handleClick(wedding)} />
-		{/each}
-	</div>
-	<h3 class="pt-16">Dinner Party</h3>
-	<div class="horizontal-snap">
-		{#each dinnerParties as dinnerParty}
-			<img src={dinnerParty} alt="Table Arrangement" on:click={() => handleClick(dinnerParty)} />
-		{/each}
-	</div>
-	<h3 class="pt-16">Table Arrangements</h3>
-	<div class="horizontal-snap">
-		{#each tableArrangements as tableArrangement}
-			<img
-				src={tableArrangement}
-				alt="Table Arrangement"
-				on:click={() => handleClick(tableArrangement)}
-			/>
-		{/each}
-	</div>
-	<Lightbox isVisible={!!selectedImg}>
-		<img src={selectedImg} />
-	</Lightbox>
-</main>
+<h1 class="text-2xl mb-8">Florals</h1>
+<p>
+	I've been a freelance floral designer for the past four years and have designed florals for dozens
+	of weddings, dinner parties, bridal/baby showers, among other events.
+</p>
+<h3 class="pt-8">Wedding</h3>
+<div class="horizontal-snap">
+	{#each weddings as wedding}
+		<img src={wedding} alt="Wedding Arrangement" on:click={() => handleClick(wedding)} />
+	{/each}
+</div>
+<h3 class="pt-8">Dinner Party</h3>
+<div class="horizontal-snap">
+	{#each dinnerParties as dinnerParty}
+		<img src={dinnerParty} alt="Table Arrangement" on:click={() => handleClick(dinnerParty)} />
+	{/each}
+</div>
+<h3 class="pt-8">Table Arrangements</h3>
+<div class="horizontal-snap">
+	{#each tableArrangements as tableArrangement}
+		<img
+			src={tableArrangement}
+			alt="Table Arrangement"
+			on:click={() => handleClick(tableArrangement)}
+		/>
+	{/each}
+</div>
+<Lightbox isVisible={!!selectedImg}>
+	<img src={selectedImg} />
+</Lightbox>
 
 <style lang="scss">
-	main {
-		height: 75vh;
-		.horizontal-snap {
-			margin: 0 auto;
-			display: grid;
-			grid-auto-flow: column;
-			gap: 1rem;
-			height: calc(280px + 1rem);
-			padding: 1rem;
-			overflow-y: auto;
-			overscroll-behavior-x: contain;
-			scroll-snap-type: x mandatory;
-			img {
-				scroll-snap-align: center;
-				width: 220px;
-				max-width: none;
-				object-fit: contain;
-			}
+	.horizontal-snap {
+		margin: 0 auto;
+		display: grid;
+		grid-auto-flow: column;
+		gap: 1rem;
+		height: calc(320px + 1rem);
+		padding: 1rem;
+		overflow-y: auto;
+		overscroll-behavior-x: contain;
+		scroll-snap-type: x mandatory;
+		img {
+			scroll-snap-align: center;
+			width: 220px;
+			max-width: none;
+			object-fit: contain;
 		}
 	}
 </style>

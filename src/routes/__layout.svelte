@@ -12,7 +12,7 @@
 </script>
 
 <Seo />
-<div class="body-wrapper mx-auto">
+<div class="body-wrapper container mx-auto">
 	<Nav />
 	<slot />
 </div>

@@ -108,3 +108,9 @@ blockquote {
 .option.disabled:hover {
 	background-color: transparent !important;
 }
+
+/* custom */
+p {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+}
