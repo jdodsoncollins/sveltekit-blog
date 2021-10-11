@@ -1,21 +1,26 @@
+html{
+	height: 100%;
+  }
+body {
+min-height: 100%;
+}
+
 html,
 body {
-	height: 100%;
 	background-color: rgb(241, 238, 229);
-}
-body {
+	background-image: url("/bg.jpg");
+	background-position: center bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
 	font-family: 'Merriweather', serif;
 	line-height: 1.7;
 	font-size: 20px;
 	color: #333;
-	padding: 2em 1em;
 	text-rendering: optimizeLegibility;
-	height: 100%;
 }
 @media screen and (max-width: 600px) {
 	body {
 		max-width: 100%;
-		padding: 1em;
 	}
 }
 h1,
