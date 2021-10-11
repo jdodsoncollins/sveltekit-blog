@@ -19,7 +19,7 @@ module.exports = {
 	theme: {
 		extend: {},
 		fontFamily: {
-			display: ['Merriweather', 'serif'],
+			display: ['Oleo Script Swash Caps', 'cursive'],
 			body: ['Merriweather', 'serif']
 		}
 	},
