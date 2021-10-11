@@ -16,7 +16,6 @@
 	import table_arrangement_8 from '$lib/assets/table_arrangement/table_arrangement_8.jpg';
 	import table_arrangement_9 from '$lib/assets/table_arrangement/table_arrangement_9.jpg';
 	import table_arrangement_10 from '$lib/assets/table_arrangement/table_arrangement_10.jpg';
-	import table_arrangement_11 from '$lib/assets/table_arrangement/table_arrangement_11.jpg';
 	import wedding_1 from '$lib/assets/wedding/wedding_1.jpg';
 	import wedding_2 from '$lib/assets/wedding/wedding_2.jpg';
 	import wedding_3 from '$lib/assets/wedding/wedding_3.jpg';
@@ -60,8 +59,7 @@
 		table_arrangement_7,
 		table_arrangement_8,
 		table_arrangement_9,
-		table_arrangement_10,
-		table_arrangement_11
+		table_arrangement_10
 	];
 	const dinnerParties = [
 		dinner_party_1,
@@ -88,7 +86,7 @@
 <h1 class="text-2xl mb-8">Florals</h1>
 <p>
 	I've been a freelance floral designer for the past four years and have designed florals for dozens
-	of weddings, dinner parties, bridal/baby showers, among other events.
+	of weddings, dinner parties, bridal/baby showers, among other events. If you are interested, send me an <a href="mailto:bethanywilsoncollins@gmail.com" target="_blank">📩 email</a> and I can provide details.
 </p>
 <h2 class="pt-8">Wedding</h2>
 <div class="horizontal-snap">
