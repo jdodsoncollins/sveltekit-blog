@@ -23,9 +23,13 @@
 				See my full <a href="/resume.pdf" target="_blank">📄 resume</a>
 			</li>
 			<li>
-				View my <a href="https://www.linkedin.com/in/bethanymariecollins/" target="_blank">🏢 LinkedIn</a>
+				View my <a href="https://www.linkedin.com/in/bethanymariecollins/" target="_blank"
+					>🏢 LinkedIn</a
+				>
 			</li>
-			<li>Send me an <a href="mailto:bethanywilsoncollins@gmail.com" target="_blank">📩 email</a></li>
+			<li>
+				Send me an <a href="mailto:bethanywilsoncollins@gmail.com" target="_blank">📩 email</a>
+			</li>
 		</ul>
 	</div>
 </div>

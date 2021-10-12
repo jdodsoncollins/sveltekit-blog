@@ -18,6 +18,7 @@
 	<slot />
 	<Footer />
 </div>
+
 <style lang="scss">
 	.body-wrapper {
 		padding: 1em;

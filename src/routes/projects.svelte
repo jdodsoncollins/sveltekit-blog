@@ -55,9 +55,9 @@
 			criteria.
 		</p>
 
-		My product is called<em>&nbsp;Florage</em>, a creator marketplace for florists. Though it does not
-		exist in reality (or not yet at least), it was created as if it would be funded and passed off
-		to a development team next.
+		My product is called<em>&nbsp;Florage</em>, a creator marketplace for florists. Though it does
+		not exist in reality (or not yet at least), it was created as if it would be funded and passed
+		off to a development team next.
 		<h3 class="py-4">Final presentation video</h3>
 		<video controls>
 			<source src={ga_presentation_mp4} type="video/mp4" />

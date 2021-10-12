@@ -4,7 +4,9 @@
 
 <nav class="pb-8 flex flex-col md:flex-row items-center">
 	<div class="flex-1">
-		<a href="/"><div class="logo-wrapper"><h1 class="logo pr-4 text-3xl">Bethany Collins</h1></div></a>
+		<a href="/"
+			><div class="logo-wrapper"><h1 class="logo pr-4 text-3xl">Bethany Collins</h1></div></a
+		>
 	</div>
 	<div class="flex-1 flex md:justify-end">
 		<a class="pr-4 font-display" href="/flowers"

@@ -70,12 +70,7 @@
 		dinner_party_6,
 		dinner_party_7
 	];
-	const makings = [
-		making_1,
-		making_2,
-		making_3,
-		making_4
-	];
+	const makings = [making_1, making_2, making_3, making_4];
 
 	let selectedImg;
 	const handleClick = (parameter) => {
@@ -86,7 +81,9 @@
 <h1 class="text-2xl mb-8">Florals</h1>
 <p>
 	I've been a freelance floral designer for the past four years and have designed florals for dozens
-	of weddings, dinner parties, bridal/baby showers, among other events. If you are interested, send me an <a href="mailto:bethanywilsoncollins@gmail.com" target="_blank">📩 email</a> and I can provide details.
+	of weddings, dinner parties, bridal/baby showers, among other events. If you are interested, send
+	me an <a href="mailto:bethanywilsoncollins@gmail.com" target="_blank">📩 email</a> and I can provide
+	details.
 </p>
 <h2 class="pt-8">Wedding</h2>
 <div class="horizontal-snap">
@@ -113,11 +110,7 @@
 <h2 class="pt-8">Behind the Scenes Look!</h2>
 <div class="horizontal-snap">
 	{#each makings as making}
-		<img
-			src={making}
-			alt="Behind the Scenes Flower Making"
-			on:click={() => handleClick(making)}
-		/>
+		<img src={making} alt="Behind the Scenes Flower Making" on:click={() => handleClick(making)} />
 	{/each}
 </div>
 <Lightbox isVisible={!!selectedImg}>

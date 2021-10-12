@@ -1,10 +1,13 @@
 <script>
 </script>
 
-<footer></footer>
+<footer />
 
 <style lang="scss">
 	footer {
-        min-height: 12em;
-    }
+		min-height: 4em;
+		@screen lg {
+			min-height: 12em;
+		}
+	}
 </style>
